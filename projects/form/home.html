@@ -1,0 +1,48 @@
+<!-- <?php
+
+$nick = $_GET['nick'];
+$senha = $_GET['senha'];
+
+// var_dump($_GET);
+
+if (empty($nick) || empty($senha))
+    header('Location: /');
+
+?> -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Home</title>
+    <script>
+        const url = new URL(window.location.href)
+        const nick = url.searchParams.get("nick").trim()
+        const senha = url.searchParams.get("senha").trim()
+
+        if (!nick || !senha) {
+            document.location.href = "./index.html"
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="welcome">
+        <h1>Olá, <span id="nick"></span></h1>
+        <h2 id="senha"></h2>
+        <button onclick="history.back()">Voltar</button>
+    </div>
+
+    <script>
+        const nickDisplay = document.getElementById("nick")
+        const senhaDisplay = document.getElementById("senha")
+        nickDisplay.textContent = nick;
+        senhaDisplay.textContent = senha;
+    </script>
+</body>
+
+</html>

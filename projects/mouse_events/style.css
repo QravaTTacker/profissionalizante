@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #f7dfab;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 50px;
+  height: 100%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 540px) {
+  main {
+    flex-direction: row;
+  }
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0px black;
+  color: black;
+  padding: 10px;
+  background: #f7eadd;
+  animation-timing-function: ease-in;
+  font-size: 2.5em;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: #d8934e;
+  color: #f7eadd;
+  border-color: white;
+  box-shadow: 2px 2px 0px white;
+}
+
+button:active {
+  transition: 0.1s;
+  color: #d8934e;
+  background: #f7eadd;
+  border-color: #d8934e;
+  box-shadow: 2px 2px 0px #d8934e;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.box::selection {
+  background: transparent;
+}
+
+/* https://colorkit.co/ */
+.box:nth-child(1) {
+  background: linear-gradient(45deg, #f8f888, #febe7e);
+}
+
+.box:nth-child(2) {
+  background: linear-gradient(135deg, #f8f888, #febe7e);
+}
+
+.box:nth-child(3) {
+  background: linear-gradient(-45deg, #f8f888, #febe7e);
+}
+
+.box:nth-child(4) {
+  background: linear-gradient(-135deg, #f8f888, #febe7e);
+}
