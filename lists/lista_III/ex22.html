@@ -4,19 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex01</title>
+    <title>Ex22</title>
 </head>
 
 <body>
     <script>
         /**********************************************************************************
         |  
-        | 1. Usando a função alert(), dê boas-vindas para uma pessoa que informa seu nome 
-        |    em um prompt().
+        | 22. ...
         |
         **********************************************************************************/
 
-     
+        const number = Number(prompt("Digite um valor: "))
+        var inicio = 1
+
+        while (inicio <= number) {
+            if (inicio % 4 == 0) {
+                document.write("PIN ")
+            } else {
+                document.write(`${inicio} `)
+            }
+            inicio++
+        }
 
         //**********************************************************************************
     </script>

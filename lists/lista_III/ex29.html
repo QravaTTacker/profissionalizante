@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex29</title>
+</head>
+
+<body>
+    <script>
+        /**********************************************************************************
+        |  
+        | 29. ...
+        |
+        **********************************************************************************/
+
+        const ano_atual = 2024
+        const ano_nascimento = Number(prompt("Digite o seu ano de nascimento:"))
+        const idade = ano_atual - ano_nascimento
+        const idade_referencia = 18
+
+        let mensagem = undefined
+
+        if      (idade === idade_referencia) mensagem = "Você terá que se alistar nesse ano 😍"
+        else if (idade > idade_referencia)   mensagem = "Você já concluiu a fase de alistamento 🫡"
+        else                                 mensagem = "Você ainda vai se alistar 🤏"
+
+        document.write(mensagem)
+
+        //**********************************************************************************
+    </script>
+</body>
+
+</html>

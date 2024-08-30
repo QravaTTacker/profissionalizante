@@ -32,7 +32,6 @@
 ```shell
 git clone https://github.com/QravaTTacker/tests-joao.git
 code tests-joao/
-clear
 
 ```
 
@@ -165,70 +164,70 @@ Use a expressão abaixo para a questão <strong>Ex008</strong>:
 <details>
     <summary><strong><em>Lista 2. Controle de Fluxos - Estruturas de Decisão</em></strong></summary>
 
-- **_[Ex011](lists/lista_II/ex01.html)_**: ...
+- **_[Ex011](lists/lista_II/ex11.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex012](lists/lista_II/ex02.html)_**: ...
+- **_[Ex012](lists/lista_II/ex12.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex013](lists/lista_II/ex03.html)_**: ...
+- **_[Ex013](lists/lista_II/ex13.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex014](lists/lista_II/ex04.html)_**: ...
+- **_[Ex014](lists/lista_II/ex14.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex015](lists/lista_II/ex05.html)_**: ...
+- **_[Ex015](lists/lista_II/ex15.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex016](lists/lista_II/ex06.html)_**: ...
+- **_[Ex016](lists/lista_II/ex16.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex017](lists/lista_II/ex07.html)_**: ...
+- **_[Ex017](lists/lista_II/ex17.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex018](lists/lista_II/ex08.html)_**: ...
+- **_[Ex018](lists/lista_II/ex18.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex019](lists/lista_II/ex09.html)_**: ...
+- **_[Ex019](lists/lista_II/ex19.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex020](lists/lista_II/ex10.html)_**: ...
+- **_[Ex020](lists/lista_II/ex20.html)_**: ...
 
 ```
     Entrada:
@@ -240,70 +239,70 @@ Use a expressão abaixo para a questão <strong>Ex008</strong>:
 <details>
     <summary><strong><em>Lista 3. Controle de Fluxos - Estruturas de Repetição</em></strong></summary>
 
-- **_[Ex021](lists/lista_III/ex01.html)_**: ...
+- **_[Ex021](lists/lista_III/ex21.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex022](lists/lista_III/ex02.html)_**: ...
+- **_[Ex022](lists/lista_III/ex22.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex023](lists/lista_III/ex03.html)_**: ...
+- **_[Ex023](lists/lista_III/ex23.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex024](lists/lista_III/ex04.html)_**: ...
+- **_[Ex024](lists/lista_III/ex24.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex025](lists/lista_III/ex05.html)_**: ...
+- **_[Ex025](lists/lista_III/ex25.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex026](lists/lista_III/ex06.html)_**: ...
+- **_[Ex026](lists/lista_III/ex26.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex027](lists/lista_III/ex07.html)_**: ...
+- **_[Ex027](lists/lista_III/ex27.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex028](lists/lista_III/ex08.html)_**: ...
+- **_[Ex028](lists/lista_III/ex28.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex029](lists/lista_III/ex09.html)_**: ...
+- **_[Ex029](lists/lista_III/ex29.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex030](lists/lista_III/ex10.html)_**: ...
+- **_[Ex030](lists/lista_III/ex30.html)_**: ...
 
 ```
     Entrada:
@@ -315,70 +314,70 @@ Use a expressão abaixo para a questão <strong>Ex008</strong>:
 <details>
     <summary><strong><em>Lista 4. Tipos Compostas</em></strong></summary>
     
-- **_[Ex031](lists/lista_IV/ex01.html)_**: ...
+- **_[Ex031](lists/lista_IV/ex31.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex032](lists/lista_IV/ex02.html)_**: ...
+- **_[Ex032](lists/lista_IV/ex32.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex033](lists/lista_IV/ex03.html)_**: ...
+- **_[Ex033](lists/lista_IV/ex33.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex034](lists/lista_IV/ex04.html)_**: ...
+- **_[Ex034](lists/lista_IV/ex34.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex035](lists/lista_IV/ex05.html)_**: ...
+- **_[Ex035](lists/lista_IV/ex35.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex036](lists/lista_IV/ex06.html)_**: ...
+- **_[Ex036](lists/lista_IV/ex36.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex037](lists/lista_IV/ex07.html)_**: ...
+- **_[Ex037](lists/lista_IV/ex37.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex038](lists/lista_IV/ex08.html)_**: ...
+- **_[Ex038](lists/lista_IV/ex38.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex039](lists/lista_IV/ex09.html)_**: ...
+- **_[Ex039](lists/lista_IV/ex39.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex040](lists/lista_IV//ex10.html)_**: ...
+- **_[Ex040](lists/lista_IV//ex40.html)_**: ...
 
 ```
     Entrada:
@@ -390,70 +389,70 @@ Use a expressão abaixo para a questão <strong>Ex008</strong>:
 <details>
     <summary><strong><em>Lista 5. Modularização</em></strong></summary>
     
-- **_[Ex041](lists/lista_V/ex01.html)_**: ...
+- **_[Ex041](lists/lista_V/ex41.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex042](lists/lista_V/ex02.html)_**: ...
+- **_[Ex042](lists/lista_V/ex42.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex043](lists/lista_V/ex03.html)_**: ...
+- **_[Ex043](lists/lista_V/ex43.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex044](lists/lista_V/ex04.html)_**: ...
+- **_[Ex044](lists/lista_V/ex44.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex045](lists/lista_V/ex05.html)_**: ...
+- **_[Ex045](lists/lista_V/ex45.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex046](lists/lista_V/ex06.html)_**: ...
+- **_[Ex046](lists/lista_V/ex46.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex047](lists/lista_V/ex07.html)_**: ...
+- **_[Ex047](lists/lista_V/ex47.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex048](lists/lista_V/ex08.html)_**: ...
+- **_[Ex048](lists/lista_V/ex48.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex049](lists/lista_V/ex09.html)_**: ...
+- **_[Ex049](lists/lista_V/ex49.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex050](lists/lista_V/ex10.html)_**: ...
+- **_[Ex050](lists/lista_V/ex50.html)_**: ...
 
 ```
     Entrada:
