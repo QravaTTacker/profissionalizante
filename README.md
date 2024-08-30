@@ -43,7 +43,7 @@ code profissionalizante/
 
 ```shell
 [Repository]
-├───.vscode  # Configurações locais e extensões (útil)
+├───.vscode  # Configurações locais e extensões
 ├───examples # Códigos de exemplo
 ├───lists    # Resolução das listas
 └───projects # Projetos desenvolvidos
@@ -51,7 +51,7 @@ code profissionalizante/
 
 ## 🔥 **Listas de Exercícios**
 
-<details>
+<details open>
     <summary><strong><em>Lista 1. Fundamentos</em></strong></summary>
 
 - **_[Ex001](lists/lista_I/ex01.html)_**: Usando a função `alert()`, dê boas-vindas para uma pessoa que informa seu nome em um `prompt()`. Exemplo:
