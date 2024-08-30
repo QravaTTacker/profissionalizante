@@ -30,8 +30,8 @@
 </p>
 
 ```shell
-git clone https://github.com/QravaTTacker/tests-joao.git
-code tests-joao/
+git clone https://github.com/QravaTTacker/profissionalizante
+code profissionalizante/
 
 ```
 
