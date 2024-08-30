@@ -9,16 +9,11 @@
 
 <body>
     <script>
-        const limite_vel = 80
-        const vel = Number(prompt("km/h: "))
-
-        document.write(`Velocidade percorrida: ${vel} km/h<br/>`)
-
-        if (vel > limite_vel) {
-            const taxa = 7
-            const km_ultrapassados = vel - limite_vel
-            const multa = km_ultrapassados * taxa
-            document.write(`Você ultrapassou o limite de ${limite_vel} km/h e deverá pagar uma multa de R$${multa.toFixed(2).toString()}.`)
+        const number = Number(prompt("Informe um valor: "))
+        if (number % 2 === 0) {
+            document.write(`${number} é um valor par.`)
+        } else {
+            document.write(`${number} é um valor ímpar.`)
         }
     </script>
 </body>

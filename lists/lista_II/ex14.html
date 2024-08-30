@@ -10,21 +10,23 @@
 <body>
     <script>
         /**********************************************************************************
-        |  
-        | 14. Faça um programa que leia 2 números e mostre qual é o maior e qual é o menor.
-        |
+        | 
+        | 14. Faça um algoritmo capaz de ler um número inteiro qualquer. Se esse número for 
+        |     positivo o programa deverá calcular o seu INVERSO, caso contrário, ele 
+        |     calculará seu OPOSTO.
+        | 
         **********************************************************************************/
+        const valor = Number(prompt("Digite um valor: "))
 
-        const number1 = Number(prompt("Número 1: "))
-        const number2 = Number(prompt("Número 2: "))
-
-        if (number1 > number2) {
-            document.write(`${number1} é maior que ${number2}.`)
-        } else if (number2 > number1) {
-            document.write(`${number2} é maior que ${number1}.`)
+        if (valor > 0) {
+            document.write(`O seu inverso é ${1 / valor}.`)
         } else {
-            document.write("Ambos são iguais!")
+            document.write(`O seu oposto é ${-valor}.`)
         }
+        const limite_vel = 80
+        const vel = Number(prompt("km/h: "))
+
+        document.write(`Velocidade percorrida: ${vel} km/h<br/>`)
 
         //**********************************************************************************
     </script>

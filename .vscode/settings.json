@@ -4,6 +4,7 @@
   },
   "cSpell.language": "en,pt,pt_BR",
   "cSpell.userWords": ["Lindonjonson", "sqltools"],
+  "cSpell.words": ["fibonacci"],
   "code-runner.runInTerminal": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontLigatures": false,
@@ -40,5 +41,7 @@
   "workbench.colorTheme": "Aura Dark",
   "workbench.iconTheme": "gruvbox-material-icon-theme",
   "workbench.productIconTheme": "fluent-icons",
-  "files.exclude": { "**/.git": false }
+  "files.exclude": {
+    "**/.git": false
+  }
 }

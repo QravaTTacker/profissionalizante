@@ -9,7 +9,12 @@
 
 <body>
     <script>
-      
+        const ano = Number(prompt("Informe um ano qualquer:"))
+        const eh_bissexto = (ano % 4 === 0 && ano % 100 !== 0) || ano % 400 === 0
+
+        let mensagem = eh_bissexto ? "O ano é bissexto" : "O ano não é bissexto"
+
+        document.write(mensagem)
     </script>
 </body>
 

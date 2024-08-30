@@ -15,7 +15,25 @@
         |
         **********************************************************************************/
 
-     
+        /**
+         * Programa que inicie perguntando ao usuário quantos números ele deseja sortear. 
+         * Após receber a quantidade solicitada, o programa deve sortear entre 0 e 100 e exibi-los na tela. 
+         * Por fim, mostre a soma total dos números sorteados.
+         */
+
+        const quantidade = Number(prompt("Informe a quantidade de números sorteados:"))
+        let soma = 0
+        let numero_sorteado = undefined
+
+        const valor_max = 101
+
+        for (let contador = 1; contador <= quantidade; contador++) {
+            numero_sorteado = parseInt(Math.random() * valor_max)
+            document.write(`${numero_sorteado} `)
+            soma += numero_sorteado
+        }
+
+        document.write(`<br/>A soma total é de ${soma}`)
 
         //**********************************************************************************
     </script>

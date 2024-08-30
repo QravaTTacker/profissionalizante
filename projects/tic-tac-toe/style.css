@@ -152,3 +152,7 @@ div#reset:hover {
 div#reset:active {
   background-color: #ffd9d980;
 }
+
+.ninja-mode {
+  background-color: #ffd9d980 !important;
+}

@@ -15,7 +15,18 @@
         |
         **********************************************************************************/
 
-     
+        const quantidade = Number(prompt("Informe a quantidade de termos da sequência de Fibonacci:"))
+
+        let a = 0
+        let b = 1
+        let fibonacci = undefined
+
+        for (let contador = 1; contador <= quantidade; contador++) {
+            document.write(`${a} `)
+            fibonacci = a + b
+            a = b
+            b = fibonacci
+        }
 
         //**********************************************************************************
     </script>

@@ -9,12 +9,23 @@
 
 <body>
     <script>
-        const number = Number(prompt("Informe um valor: "))
-        if (number % 2 === 0) {
-            document.write(`${number} é um valor par.`)
+        /**********************************************************************************
+        |  
+        | 16. Faça um programa que leia 2 números e mostre qual é o maior e qual é o menor.
+        |
+        **********************************************************************************/
+
+        const number1 = Number(prompt("Número 1: "))
+        const number2 = Number(prompt("Número 2: "))
+
+        if (number1 > number2) {
+            document.write(`${number1} é maior que ${number2}.`)
+        } else if (number2 > number1) {
+            document.write(`${number2} é maior que ${number1}.`)
         } else {
-            document.write(`${number} é um valor ímpar.`)
+            document.write("Ambos são iguais!")
         }
+
     </script>
 </body>
 

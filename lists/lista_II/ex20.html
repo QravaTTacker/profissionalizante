@@ -9,7 +9,20 @@
 
 <body>
     <script>
-        
+        /**
+        * Programa que leia o comprimento de três retas e determine se elas podem formar um triângulo. 
+        * O programa deve informar se é possível ou não formar um triângulo com as medidas fornecidas.
+        */
+
+        const a = Number(prompt("Informe a 1ª reta"))
+        const b = Number(prompt("Informe a 2ª reta"))
+        const c = Number(prompt("Informe a 3ª reta"))
+
+        const mensagem = (a + b > c && a + c > b && b + c > a)
+            ? `Os valores de ${a}, ${b} e ${c} formam um triângulo`
+            : `Os valores de ${a}, ${b} e ${c} NÃO formam um triângulo`
+
+        document.write(mensagem)
     </script>
 </body>
 
