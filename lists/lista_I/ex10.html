@@ -17,7 +17,13 @@
         |
         **********************************************************************************/
 
-     
+        const segundos_totais = Number(prompt("Informe o total de segundos"))
+
+        const horas    = parseInt(segundos_totais / 3600)
+        const minuto   = parseInt(segundos_totais % 3600 / 60)
+        const segundos = segundos_totais % 3600 % 60
+
+        document.write(`${horas} hora(s), ${minuto} minuto(s) e ${segundos} segundo(s)`)
 
         //**********************************************************************************
     </script>

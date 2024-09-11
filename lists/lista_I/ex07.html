@@ -16,7 +16,15 @@
         |
         **********************************************************************************/
 
-     
+        const P1 = 2, P2 = 3, P3 = 5;
+
+        const valor1 = Number(prompt("Informe o 1º valor:"))
+        const valor2 = Number(prompt("Informe o 2º valor:"))
+        const valor3 = Number(prompt("Informe o 3º valor:"))
+
+        const media_ponderada = (valor1 * P1 + valor2 * P2 + valor3 * P3) / (P1 + P2 + P3)
+
+        document.write(`Sua média ponderada é ${media_ponderada}`)
 
         //**********************************************************************************
     </script>

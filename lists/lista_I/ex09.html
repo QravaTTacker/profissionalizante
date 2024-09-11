@@ -17,7 +17,14 @@
         |
         **********************************************************************************/
 
-     
+        const num = Number(prompt("Informe um valor de 0 até 9999"))
+
+        const unidade = num % 10
+        const dezena  = parseInt(num / 10)   % 10
+        const centena = parseInt(num / 100)  % 10
+        const milhar  = parseInt(num / 1000) % 10
+
+        document.write(`${milhar} milhar(es), ${centena} centena(s), ${dezena} dezena(s), ${unidade} unidade(s)`)
 
         //**********************************************************************************
     </script>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex04</title>
+</head>
+
+<body>
+    <script>
+
+        const distancia_total = Number(prompt("Informe a distância total:"))
+        const distancia_referencia = 200
+
+        let custo = distancia_total >= distancia_referencia ? 0.35 : 0.5
+        let valor_passagem = custo * distancia_total
+
+        const valor_formatado = valor_passagem.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })
+
+        document.write(`Com a distância de ${distancia_total} km o preço da passagem ficará por ${valor_formatado}`)
+
+    </script>
+</body>
+
+</html>

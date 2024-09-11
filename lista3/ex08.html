@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex08</title>
+</head>
+
+<body>
+    <script>
+
+        let nome_mais_velha = undefined
+        let idade_mais_velha = Number.MIN_SAFE_INTEGER
+
+        let nome_mais_nova = undefined
+        let idade_mais_nova = Number.MAX_SAFE_INTEGER
+
+        let nome = undefined
+        let idade = undefined
+
+        for (let contador = 1; contador <= 8; contador++) {
+            nome = prompt("Informe o seu nome:")
+            idade = Number(prompt("Informe a sua idade:"))
+            if (idade >= idade_mais_velha) {
+                nome_mais_velha = idade === idade_mais_velha ? `${nome_mais_velha}, ${nome}` : nome
+                idade_mais_velha = idade
+            }
+
+            if (idade <= idade_mais_nova) {
+                nome_mais_nova = idade === idade_mais_nova ? `${nome_mais_nova}, ${nome}` : nome
+                idade_mais_nova = idade
+            }
+        }
+
+        document.write(`${nome_mais_velha} é/são a(s) pessoa(s) mais velha(s) com ${idade_mais_velha} anos<br>`)
+        document.write(`${nome_mais_nova} é/são a(s) pessoa(s) mais nova(s) com ${idade_mais_nova} anos`)
+
+    </script>
+</body>
+
+</html>
