@@ -55,14 +55,14 @@ code profissionalizante/
 <details open>
     <summary><strong><em>Lista 1. Fundamentos</em></strong></summary>
 
-- **_[Ex01](lists/lista_I/ex01.html)_**: Programa que dê boas-vindas para uma pessoa usando a função `alert()`. A pessoa deve informa seu nome em um `prompt()`. Exemplo:
+- **_[Ex01](lists/I/ex01.html)_**: Programa que dê boas-vindas para uma pessoa usando a função `alert()`. A pessoa deve informa seu nome em um `prompt()`. Exemplo:
 
 ```
     Entrada: Mariel
     Saída: Olá, Mariel! Seja Bem-Vindo ao mundo da programação
 ```
 
-- **_[Ex02](lists/lista_I/ex02.html)_**: Programa capaz de ler dois valores com `prompt()`, converte-los para número com `Number()` e, em seguida, mostre a soma entre eles com `alert()`. Exemplo:
+- **_[Ex02](lists/I/ex02.html)_**: Programa capaz de ler dois valores com `prompt()`, converte-los para número com `Number()` e, em seguida, mostre a soma entre eles com `alert()`. Exemplo:
 
 ```
     1ª Entrada: 5
@@ -70,14 +70,14 @@ code profissionalizante/
     Saída: A soma ente 5 e 6 é 11!
 ```
 
-- **_[Ex03](lists/lista_I/ex03.html)_**: Programa que recebe um número inteiro com a função `prompt()` e, em seguida, mostre seu antecessor e sucessor com o `alert()`. Exemplo:
+- **_[Ex03](lists/I/ex03.html)_**: Programa que recebe um número inteiro com a função `prompt()` e, em seguida, mostre seu antecessor e sucessor com o `alert()`. Exemplo:
 
 ```
     Entrada: 1
     Saída: Analisando o valor 1, seu antecessor é 0 e seu sucessor é 2
 ```
 
-- **_[Ex04](lists/lista_I/ex04.html)_**: Programa capaz de ler dois valores, converte-los para número real com `parseFloat()` e mostrar as quatro operações entre eles no documento HTML. Use a função `document.write()` e a quebra de linha `<br>` para isso. Exemplo:
+- **_[Ex04](lists/I/ex04.html)_**: Programa capaz de ler dois valores, converte-los para número real com `parseFloat()` e mostrar as quatro operações entre eles no documento HTML. Use a função `document.write()` e a quebra de linha `<br>` para isso. Exemplo:
 
 ```
     1ª Entrada: 5
@@ -89,7 +89,7 @@ code profissionalizante/
             5 / 2 = 2.5
 ```
 
-- **_[Ex05](lists/lista_I/ex05.html)_**: Programa que mostra no documento HTML a divisão real, divisão inteira e o módulo entre dois valores. Use a função `parseInt()` para alcançar o resultado da divisão inteira. Exemplo:
+- **_[Ex05](lists/I/ex05.html)_**: Programa que mostra no documento HTML a divisão real, divisão inteira e o módulo entre dois valores. Use a função `parseInt()` para alcançar o resultado da divisão inteira. Exemplo:
 
 ```
     1ª Entrada: 5
@@ -100,7 +100,7 @@ code profissionalizante/
           Módulo da Divisão: 1
 ```
 
-- **_[Ex06](lists/lista_I/ex06.html)_**: Programa que leia duas notas de um aluno e calcule a sua média final. Exemplo:
+- **_[Ex06](lists/I/ex06.html)_**: Programa que leia duas notas de um aluno e calcule a sua média final. Exemplo:
 
 ```
     1ª Entrada: 8.5
@@ -115,7 +115,7 @@ Use essa expressão para te auxiliar na questão <strong>Ex06</strong>:
 </div>
 </br>
 
-- **_[Ex07](lists/lista_I/ex07.html)_**: Programa que mostra a média ponderada de três valores com os pesos P1 = 2, P2 = 3 e P3 = 5. Exemplo:
+- **_[Ex07](lists/I/ex07.html)_**: Programa que mostra a média ponderada de três valores com os pesos P1 = 2, P2 = 3 e P3 = 5. Exemplo:
 
 ```
     1ª Entrada: 2
@@ -131,7 +131,7 @@ Use a equação abaixo para o exercício <strong>Ex007</strong>:
 </div>
 </br>
 
-- **_[Ex08](lists/lista_I/ex08.html)_**: Programa que mostra o somatório de 1 até um valor n. Exemplo:
+- **_[Ex08](lists/I/ex08.html)_**: Programa que mostra o somatório de 1 até um valor n. Exemplo:
 
 ```
     Entrada: 100
@@ -145,14 +145,14 @@ Use a expressão abaixo para a questão <strong>Ex08</strong>:
 </div>
 </br>
 
-- **_[Ex09](lists/lista_I/ex09.html)_**: Desenvolva um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados. Use os conceitos de divisão inteira e módulo da divisão (resto) para alcançar o resultado. Exemplo:
+- **_[Ex09](lists/I/ex09.html)_**: Desenvolva um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados. Use os conceitos de divisão inteira e módulo da divisão (resto) para alcançar o resultado. Exemplo:
 
 ```
     Entrada: 1834
     Saída: 1 milhar(es), 8 centena(s), 3 dezena(s), 4 unidade(s)
 ```
 
-- **_[Ex10](lists/lista_I/ex10.html)_**: Programa que mostra a quantidade de horas, minutos e segundos a partir de um tempo total em
+- **_[Ex10](lists/I/ex10.html)_**: Programa que mostra a quantidade de horas, minutos e segundos a partir de um tempo total em
   segundos. Use os conceitos de divisão inteira e módulo da divisão (resto) para identificar tempo de cada unidade. Exemplo:
 
 ```
@@ -165,7 +165,7 @@ Use a expressão abaixo para a questão <strong>Ex08</strong>:
 <details>
     <summary><strong><em>Lista 2. Controle de Fluxos - Estruturas de Decisão</em></strong></summary>
 
-- **_[Ex11](lists/lista_II/ex11.html)_**: Programa que leia as duas notas de um aluno, calcule a média e mostrar uma
+- **_[Ex11](lists/II/ex11.html)_**: Programa que leia as duas notas de um aluno, calcule a média e mostrar uma
   mensagem de parabéns, caso a média seja 7,0 ou superior. Exemplo:
 
 ```
@@ -181,63 +181,63 @@ Use a equação abaixo para o exercício <strong>Ex11</strong>:
 </div>
 </br>
 
-- **_[Ex12](lists/lista_II/ex12.html)_**: Desenvolva um algoritmo que leia o valor total das compras de um cliente e mostre uma mensagem especial caso as compras sejam acima de R$500,00. Nessa situação, ele ainda vai ganhar 10% de desconto. Exemplo:
+- **_[Ex12](lists/II/ex12.html)_**: Desenvolva um algoritmo que leia o valor total das compras de um cliente e mostre uma mensagem especial caso as compras sejam acima de R$500,00. Nessa situação, ele ainda vai ganhar 10% de desconto. Exemplo:
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex13](lists/lista_II/ex13.html)_**: ...
+- **_[Ex13](lists/II/ex13.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex14](lists/lista_II/ex14.html)_**: ...
+- **_[Ex14](lists/II/ex14.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex15](lists/lista_II/ex15.html)_**: ...
+- **_[Ex15](lists/II/ex15.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex16](lists/lista_II/ex16.html)_**: ...
+- **_[Ex16](lists/II/ex16.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex17](lists/lista_II/ex17.html)_**: ...
+- **_[Ex17](lists/II/ex17.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex18](lists/lista_II/ex18.html)_**: ...
+- **_[Ex18](lists/II/ex18.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex19](lists/lista_II/ex19.html)_**: ...
+- **_[Ex19](lists/II/ex19.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex20](lists/lista_II/ex20.html)_**: ...
+- **_[Ex20](lists/II/ex20.html)_**: ...
 
 ```
     Entrada:
@@ -249,70 +249,70 @@ Use a equação abaixo para o exercício <strong>Ex11</strong>:
 <details>
     <summary><strong><em>Lista 3. Controle de Fluxos - Estruturas de Repetição</em></strong></summary>
 
-- **_[Ex21](lists/lista_III/ex21.html)_**: ...
+- **_[Ex21](lists/III/ex21.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex22](lists/lista_III/ex22.html)_**: ...
+- **_[Ex22](lists/III/ex22.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex23](lists/lista_III/ex23.html)_**: ...
+- **_[Ex23](lists/III/ex23.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex24](lists/lista_III/ex24.html)_**: ...
+- **_[Ex24](lists/III/ex24.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex25](lists/lista_III/ex25.html)_**: ...
+- **_[Ex25](lists/III/ex25.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex26](lists/lista_III/ex26.html)_**: ...
+- **_[Ex26](lists/III/ex26.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex27](lists/lista_III/ex27.html)_**: ...
+- **_[Ex27](lists/III/ex27.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex28](lists/lista_III/ex28.html)_**: ...
+- **_[Ex28](lists/III/ex28.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex29](lists/lista_III/ex29.html)_**: ...
+- **_[Ex29](lists/III/ex29.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex30](lists/lista_III/ex30.html)_**: ...
+- **_[Ex30](lists/III/ex30.html)_**: ...
 
 ```
     Entrada:
@@ -324,70 +324,70 @@ Use a equação abaixo para o exercício <strong>Ex11</strong>:
 <details>
     <summary><strong><em>Lista 4. Tipos Compostas</em></strong></summary>
     
-- **_[Ex31](lists/lista_IV/ex31.html)_**: ...
+- **_[Ex31](lists/IV/ex31.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex32](lists/lista_IV/ex32.html)_**: ...
+- **_[Ex32](lists/IV/ex32.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex33](lists/lista_IV/ex33.html)_**: ...
+- **_[Ex33](lists/IV/ex33.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex34](lists/lista_IV/ex34.html)_**: ...
+- **_[Ex34](lists/IV/ex34.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex35](lists/lista_IV/ex35.html)_**: ...
+- **_[Ex35](lists/IV/ex35.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex36](lists/lista_IV/ex36.html)_**: ...
+- **_[Ex36](lists/IV/ex36.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex37](lists/lista_IV/ex37.html)_**: ...
+- **_[Ex37](lists/IV/ex37.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex38](lists/lista_IV/ex38.html)_**: ...
+- **_[Ex38](lists/IV/ex38.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex39](lists/lista_IV/ex39.html)_**: ...
+- **_[Ex39](lists/IV/ex39.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex40](lists/lista_IV//ex40.html)_**: ...
+- **_[Ex40](lists/IV//ex40.html)_**: ...
 
 ```
     Entrada:
@@ -399,70 +399,70 @@ Use a equação abaixo para o exercício <strong>Ex11</strong>:
 <details>
     <summary><strong><em>Lista 5. Modularização</em></strong></summary>
     
-- **_[Ex41](lists/lista_V/ex41.html)_**: ...
+- **_[Ex41](lists/V/ex41.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex42](lists/lista_V/ex42.html)_**: ...
+- **_[Ex42](lists/V/ex42.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex43](lists/lista_V/ex43.html)_**: ...
+- **_[Ex43](lists/V/ex43.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex44](lists/lista_V/ex44.html)_**: ...
+- **_[Ex44](lists/V/ex44.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex45](lists/lista_V/ex45.html)_**: ...
+- **_[Ex45](lists/V/ex45.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex46](lists/lista_V/ex46.html)_**: ...
+- **_[Ex46](lists/V/ex46.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex47](lists/lista_V/ex47.html)_**: ...
+- **_[Ex47](lists/V/ex47.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex48](lists/lista_V/ex48.html)_**: ...
+- **_[Ex48](lists/V/ex48.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex49](lists/lista_V/ex49.html)_**: ...
+- **_[Ex49](lists/V/ex49.html)_**: ...
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex50](lists/lista_V/ex50.html)_**: ...
+- **_[Ex50](lists/V/ex50.html)_**: ...
 
 ```
     Entrada:
