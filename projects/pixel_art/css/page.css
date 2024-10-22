@@ -1,0 +1,38 @@
+/* 
+    - Define a cor de fundo da scrollbar 
+    - width: Define a largura da scrollbar vertical
+    - height: Define a altura da scrollbar horizontal
+*/
+body::-webkit-scrollbar {
+  background-image: linear-gradient(#f1a20f, #f1660f, #c4f10f);
+  width: 10px;
+  height: 5px;
+}
+
+/* Define a cor do thumb (a alça que você arrasta) */
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#0f8bf1, #970ff1, #fb00ff);
+  border-radius: 50px;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  background-color: #0c611e;
+  min-height: 100dvh;
+}
+
+/* Elimina os espaçamentos entre as células */
+table {
+  border-collapse: collapse;
+}
+
+th {
+  /* border: 1px solid black; */
+  padding: 0px;
+}
+
+div {
+  min-height: 100dvh;
+}
