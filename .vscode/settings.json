@@ -19,9 +19,6 @@
   "explorer.compactFolders": false,
   "files.autoSave": "afterDelay",
   "liveServer.settings.port": 5501,
-  "markdownlint.config": {
-    "default": false
-  },
   "sqltools.connections": [
     {
       "database": "mysql",
@@ -38,7 +35,7 @@
       "username": "root"
     }
   ],
-  "workbench.colorTheme": "Aura Dark",
+  "workbench.colorTheme": "Omni Customized Dark",
   "workbench.iconTheme": "gruvbox-material-icon-theme",
   "workbench.productIconTheme": "fluent-icons",
   "files.exclude": {

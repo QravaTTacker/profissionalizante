@@ -19,14 +19,14 @@
 
 - [x] Documentação de exemplos na pasta **_[examples](examples/)_**;
 - [x] Revisão de projetos na pasta **_[projects](projects/)_**; e
-- [x] Resolução das listas na pata **_[lists](lists/)_**.
+- [x] Resolução das listas na pasta **_[lists](lists/)_**.
 
 </details>
 
 ### 📦 **Download**
 
 <p align="justify">
-    Com o Git e VS Code instalados no seu computador, basta abrir o <strong>terminal</strong> e colar o comando abaixo:
+    Com o Git e VS Code instalados no seu computador, basta abrir o <strong>terminal</strong> na área de trabalho e colar o comando abaixo:
 </p>
 
 ```shell
@@ -38,11 +38,12 @@ code profissionalizante/
 ### 📂 **Diretórios**
 
 <p align="justify">
-    A arquitetura de pastas é relativamente simples, você pode conferir sua distribuição com o diagrama abaixo:
+    A arquitetura de pastas do repositório é relativamente simples, você pode conferir sua distribuição com o diagrama abaixo:
 </p>
 
 ```shell
 [Repository]
+├───.git     # Configurações do git
 ├───.vscode  # Configurações locais e extensões
 ├───examples # Códigos de exemplo
 ├───lists    # Resolução das listas
@@ -54,14 +55,14 @@ code profissionalizante/
 <details open>
     <summary><strong><em>Lista 1. Fundamentos</em></strong></summary>
 
-- **_[Ex01](lists/lista_I/ex01.html)_**: Usando a função `alert()`, dê boas-vindas para uma pessoa que informa seu nome em um `prompt()`. Exemplo:
+- **_[Ex01](lists/lista_I/ex01.html)_**: Programa que dê boas-vindas para uma pessoa usando a função `alert()`. A pessoa deve informa seu nome em um `prompt()`. Exemplo:
 
 ```
     Entrada: Mariel
     Saída: Olá, Mariel! Seja Bem-Vindo ao mundo da programação
 ```
 
-- **_[Ex02](lists/lista_I/ex02.html)_**: Crie um algoritmo capaz de ler dois valores com `prompt()`, converte-los para número com `Number()` e, em seguida, mostre a soma entre eles com `alert()`. Exemplo:
+- **_[Ex02](lists/lista_I/ex02.html)_**: Programa capaz de ler dois valores com `prompt()`, converte-los para número com `Number()` e, em seguida, mostre a soma entre eles com `alert()`. Exemplo:
 
 ```
     1ª Entrada: 5
@@ -69,7 +70,7 @@ code profissionalizante/
     Saída: A soma ente 5 e 6 é 11!
 ```
 
-- **_[Ex03](lists/lista_I/ex03.html)_**: Crie um programa para ler um número inteiro com a função `prompt()` e, em seguida, mostre seu antecessor e sucessor com o `alert()`. Exemplo:
+- **_[Ex03](lists/lista_I/ex03.html)_**: Programa que recebe um número inteiro com a função `prompt()` e, em seguida, mostre seu antecessor e sucessor com o `alert()`. Exemplo:
 
 ```
     Entrada: 1
@@ -151,7 +152,7 @@ Use a expressão abaixo para a questão <strong>Ex08</strong>:
     Saída: 1 milhar(es), 8 centena(s), 3 dezena(s), 4 unidade(s)
 ```
 
-- **_[Ex10](lists/lista_I/ex10.html)_**: Crie um algoritmo que mostra a quantidade de horas, minutos e segundos a partir de um tempo total em
+- **_[Ex10](lists/lista_I/ex10.html)_**: Programa que mostra a quantidade de horas, minutos e segundos a partir de um tempo total em
   segundos. Use os conceitos de divisão inteira e módulo da divisão (resto) para identificar tempo de cada unidade. Exemplo:
 
 ```
@@ -164,8 +165,14 @@ Use a expressão abaixo para a questão <strong>Ex08</strong>:
 <details>
     <summary><strong><em>Lista 2. Controle de Fluxos - Estruturas de Decisão</em></strong></summary>
 
-- **_[Ex11](lists/lista_II/ex11.html)_**: Crie um programa que leia as duas notas de um aluno, calcule a média e mostrar uma
-  mensagem de parabéns, caso a média seja 7,0 ou superior.
+- **_[Ex11](lists/lista_II/ex11.html)_**: Programa que leia as duas notas de um aluno, calcule a média e mostrar uma
+  mensagem de parabéns, caso a média seja 7,0 ou superior. Exemplo:
+
+```
+    1ª Entrada: 6
+    2ª Entrada: 8
+    Saída: Sua média é 7. Parabéns!
+```
 
 Use a equação abaixo para o exercício <strong>Ex11</strong>:
 
@@ -174,12 +181,7 @@ Use a equação abaixo para o exercício <strong>Ex11</strong>:
 </div>
 </br>
 
-```
-    Entrada:
-    Saída:
-```
-
-- **_[Ex12](lists/lista_II/ex12.html)_**: ...
+- **_[Ex12](lists/lista_II/ex12.html)_**: Desenvolva um algoritmo que leia o valor total das compras de um cliente e mostre uma mensagem especial caso as compras sejam acima de R$500,00. Nessa situação, ele ainda vai ganhar 10% de desconto. Exemplo:
 
 ```
     Entrada:

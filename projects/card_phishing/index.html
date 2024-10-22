@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/marges.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="icon" href="assets/img/logo.svg">
+    <title>Quick Find</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a href="/index.html" target="_parent" rel="noopener noreferrer">Quick Find</a>
+        </h1>
+        <menu>
+            <li><a href="#" target="_parent" rel="noopener noreferrer">Home</a></li>
+            <li><a href="pages/about.html" target="_parent" rel="noopener noreferrer">About</a></li>
+            <li><a href="pages/contact.html" target="_parent" rel="noopener noreferrer">Contact</a></li>
+        </menu>
+    </header>
+
+    <main>
+        <h2>Verifique se seu cartão vazou na <em>internet</em>.</h2>
+        <form>
+            <div class="input">
+                <label for="user_email">Email</label>
+                <input 
+                    type="email" 
+                    id="user_email" 
+                    name="user_email"
+                    placeholder="user@email.com"
+                    minlength="5"
+                    maxlength="256"
+                    required
+                >
+            </div>
+            <div class="input">
+                <label for="card_name">Nome no Cartão</label>
+                <input 
+                    type="text"
+                    id="card_name" 
+                    name="card_name" 
+                    placeholder="Machado de Assis" 
+                    minlength="3"
+                    maxlength="40"
+                    pattern="^[a-zA-Z ]{3,40}$"
+                    required
+                >
+            </div>
+            <fieldset>
+                <div class="input">
+                    <label for="card_number">Número do Cartão</label>
+                    <input
+                        type="text"
+                        id="card_number"
+                        name="card_number"
+                        placeholder="0000 0000 0000 0000"
+                        maxlength="19"
+                        minlength="19"
+                        pattern="^\d{4} \d{4} \d{4} \d{4}$"
+                        required
+                    >
+                </div>
+                    <div class="input">
+                    <label for="card_data">Validade</label>
+                    <input
+                        type="text"
+                        id="card_date"
+                        name="card_date"
+                        placeholder="mm/yy"
+                        minlength="5"
+                        maxlength="5"
+                        pattern="^(0[1-9]|1[0-2])\/\d{2}$"
+                        required
+                    >
+                </div>
+                <div class="input">
+                    <label for="card_code">CVV</label>
+                    <input
+                        type="text"
+                        id="card_code"
+                        name="card_code"
+                        placeholder="000"
+                        minlength="3"
+                        maxlength="3"
+                        pattern="^\d{3}$"
+                        required
+                    >
+                </div>
+            </fieldset>
+            <button type="button" id="btn_check">Verificar</button>
+        </form>
+    </main>
+
+    <footer>
+        Footer
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

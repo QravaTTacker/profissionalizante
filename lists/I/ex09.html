@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex09</title>
+</head>
+
+<body>
+    <script>
+        /**********************************************************************************
+        |  
+        | 9. Desenvolva um programa que leia um número de 0 a 9999 e mostre na tela cada 
+        |    um dos dígitos separados. Use os conceitos de divisão inteira e módulo da 
+        |    divisão (resto) para alcançar o resultado.
+        |
+        **********************************************************************************/
+
+        const num = Number(prompt("Informe um valor de 0 até 9999:"))
+
+        const unidade = num % 10
+        const dezena  = parseInt(num / 10)   % 10
+        const centena = parseInt(num / 100)  % 10
+        const milhar  = parseInt(num / 1000) % 10
+
+        document.write(`${milhar} milhar(es), ${centena} centena(s), ${dezena} dezena(s), ${unidade} unidade(s)`)
+
+        //**********************************************************************************
+    </script>
+</body>
+
+</html>

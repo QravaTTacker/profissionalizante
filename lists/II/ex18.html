@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex18</title>
+</head>
+
+<body>
+    <script>
+        /**********************************************************************************
+        | 
+        | 18. Faça um algoritmo capaz de ler um número inteiro qualquer. Se esse número for 
+        |     positivo o programa deverá calcular o seu INVERSO, caso contrário, ele 
+        |     calculará seu OPOSTO.
+        | 
+        **********************************************************************************/
+
+        const ano = Number(prompt("Informe um ano qualquer:"))
+        const eh_bissexto = (ano % 4 === 0 && ano % 100 !== 0) || ano % 400 === 0
+
+        let mensagem = eh_bissexto ? "O ano é bissexto" : "O ano não é bissexto"
+
+        document.write(mensagem)
+
+        //**********************************************************************************
+    </script>
+</body>
+
+</html>
