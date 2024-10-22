@@ -26,7 +26,7 @@
 ### 📦 **Download**
 
 <p align="justify">
-    Com o Git e VS Code instalados no seu computador, basta abrir o <strong>terminal</strong> na área de trabalho e colar o comando abaixo:
+    Com o Git e VS Code instalados no seu computador, basta abrir o <strong>terminal</strong> e colar o comando abaixo:
 </p>
 
 ```shell
@@ -38,7 +38,7 @@ code profissionalizante/
 ### 📂 **Diretórios**
 
 <p align="justify">
-    A arquitetura de pastas do repositório é relativamente simples, você pode conferir sua distribuição com o diagrama abaixo:
+    A arquitetura de pastas é relativamente simples, você pode conferir sua distribuição com o diagrama abaixo:
 </p>
 
 ```shell
