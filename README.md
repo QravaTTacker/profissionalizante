@@ -52,7 +52,7 @@ code profissionalizante/
 
 ## 🔥 **Listas de Exercícios**
 
-<details>
+<details id="l1">
     <summary><strong><em>Lista 1. Fundamentos</em></strong></summary>
 
 - **_[Ex01](lists/I/ex01.html)_**: Programa que dê boas-vindas para uma pessoa usando a função `alert()`. A pessoa deve informa seu nome em um `prompt()`. Exemplo:
@@ -161,7 +161,7 @@ Use a expressão abaixo para a questão <strong>Ex08</strong>:
 
 </details>
 
-<details open>
+<details id="l2" open>
     <summary><strong><em>Lista 2. Controle de Fluxos - Estruturas de Decisão</em></strong></summary>
 
 - **_[Ex11](lists/II/ex11.html)_**: Programa que leia duas notas de um aluno, calcule a média e mostra uma mensagem de parabéns, caso a média seja igual a 7,0 ou superior. Exemplo:
@@ -244,7 +244,7 @@ Use a equação abaixo para o exercício <strong>Ex11</strong>:
 
 </details>
 
-<details>
+<details id="l3">
     <summary><strong><em>Lista 3. Controle de Fluxos - Estruturas de Repetição</em></strong></summary>
 
 - **_[Ex21](lists/III/ex21.html)_**: ...
@@ -319,7 +319,7 @@ Use a equação abaixo para o exercício <strong>Ex11</strong>:
 
 </details>
 
-<details>
+<details id="l4">
     <summary><strong><em>Lista 4. Tipos Compostas</em></strong></summary>
     
 - **_[Ex31](lists/IV/ex31.html)_**: ...
@@ -394,7 +394,7 @@ Use a equação abaixo para o exercício <strong>Ex11</strong>:
 
 </details>
 
-<details id="lista5">
+<details id="l5">
     <summary><strong><em>Lista 5. Modularização</em></strong></summary>
     
 - **_[Ex41](lists/V/ex41.html)_**: ...
