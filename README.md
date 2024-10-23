@@ -52,7 +52,7 @@ code profissionalizante/
 
 ## 🔥 **Listas de Exercícios**
 
-<details open>
+<details>
     <summary><strong><em>Lista 1. Fundamentos</em></strong></summary>
 
 - **_[Ex01](lists/I/ex01.html)_**: Programa que dê boas-vindas para uma pessoa usando a função `alert()`. A pessoa deve informa seu nome em um `prompt()`. Exemplo:
@@ -62,7 +62,7 @@ code profissionalizante/
     Saída: Olá, Mariel! Seja Bem-Vindo ao mundo da programação
 ```
 
-- **_[Ex02](lists/I/ex02.html)_**: Programa capaz de ler dois valores com `prompt()`, converte-los para número com `Number()` e, em seguida, mostre a soma entre eles com `alert()`. Exemplo:
+- **_[Ex02](lists/I/ex02.html)_**: Programa capaz de ler dois valores usando o `prompt()`, converte-los para número com `Number()` e, em seguida, mostra a soma entre eles através de um `alert()` Exemplo:
 
 ```
     1ª Entrada: 5
@@ -70,14 +70,14 @@ code profissionalizante/
     Saída: A soma ente 5 e 6 é 11!
 ```
 
-- **_[Ex03](lists/I/ex03.html)_**: Programa que recebe um número inteiro com a função `prompt()` e, em seguida, mostre seu antecessor e sucessor com o `alert()`. Exemplo:
+- **_[Ex03](lists/I/ex03.html)_**: Programa que recebe um número inteiro com a função `prompt()` e, em seguida, mostre seu antecessor e sucessor usando um `alert()`. Exemplo:
 
 ```
     Entrada: 1
     Saída: Analisando o valor 1, seu antecessor é 0 e seu sucessor é 2
 ```
 
-- **_[Ex04](lists/I/ex04.html)_**: Programa capaz de ler dois valores, converte-los para número real com `parseFloat()` e mostrar as quatro operações entre eles no documento HTML. Use a função `document.write()` e a quebra de linha `<br>` para isso. Exemplo:
+- **_[Ex04](lists/I/ex04.html)_**: Programa capaz de ler dois valores, converte-los para número real com `parseFloat()` e mostra as quatro operações entre eles no documento HTML. Use a função `document.write()` e a quebra de linha `<br>` para isso. Exemplo:
 
 ```
     1ª Entrada: 5
@@ -89,7 +89,7 @@ code profissionalizante/
             5 / 2 = 2.5
 ```
 
-- **_[Ex05](lists/I/ex05.html)_**: Programa que mostra no documento HTML a divisão real, divisão inteira e o módulo entre dois valores. Use a função `parseInt()` para alcançar o resultado da divisão inteira. Exemplo:
+- **_[Ex05](lists/I/ex05.html)_**: Programa que mostra, no documento HTML, a divisão real, divisão inteira e o módulo entre dois valores. Use a função `parseInt()` para alcançar o resultado da divisão inteira. Exemplo:
 
 ```
     1ª Entrada: 5
@@ -145,15 +145,14 @@ Use a expressão abaixo para a questão <strong>Ex08</strong>:
 </div>
 </br>
 
-- **_[Ex09](lists/I/ex09.html)_**: Desenvolva um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados. Use os conceitos de divisão inteira e módulo da divisão (resto) para alcançar o resultado. Exemplo:
+- **_[Ex09](lists/I/ex09.html)_**: Programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados. Use os conceitos de divisão inteira e módulo da divisão (resto) para alcançar o resultado. Exemplo:
 
 ```
     Entrada: 1834
     Saída: 1 milhar(es), 8 centena(s), 3 dezena(s), 4 unidade(s)
 ```
 
-- **_[Ex10](lists/I/ex10.html)_**: Programa que mostra a quantidade de horas, minutos e segundos a partir de um tempo total em
-  segundos. Use os conceitos de divisão inteira e módulo da divisão (resto) para identificar tempo de cada unidade. Exemplo:
+- **_[Ex10](lists/I/ex10.html)_**: Programa que mostra a quantidade de horas, minutos e segundos a partir de um tempo total em segundos. Use os conceitos de divisão inteira e módulo da divisão (resto) para identificar o tempo de cada unidade. Exemplo:
 
 ```
     Entrada: 8620
@@ -162,11 +161,10 @@ Use a expressão abaixo para a questão <strong>Ex08</strong>:
 
 </details>
 
-<details>
+<details open>
     <summary><strong><em>Lista 2. Controle de Fluxos - Estruturas de Decisão</em></strong></summary>
 
-- **_[Ex11](lists/II/ex11.html)_**: Programa que leia as duas notas de um aluno, calcule a média e mostrar uma
-  mensagem de parabéns, caso a média seja 7,0 ou superior. Exemplo:
+- **_[Ex11](lists/II/ex11.html)_**: Programa que leia duas notas de um aluno, calcule a média e mostra uma mensagem de parabéns, caso a média seja igual a 7,0 ou superior. Exemplo:
 
 ```
     1ª Entrada: 6
@@ -176,68 +174,68 @@ Use a expressão abaixo para a questão <strong>Ex08</strong>:
 
 Use a equação abaixo para o exercício <strong>Ex11</strong>:
 
-<div align="center"> 
+<div align="center">
 <code><em>media = (nota1 + nota2) / 2</em></code>
 </div>
 </br>
 
-- **_[Ex12](lists/II/ex12.html)_**: Desenvolva um algoritmo que leia o valor total das compras de um cliente e mostre uma mensagem especial caso as compras sejam acima de R$500,00. Nessa situação, ele ainda vai ganhar 10% de desconto. Exemplo:
+- **_[Ex12](lists/II/ex12.html)_**: Programa capaz de ler um valor total das compras de um cliente e mostra uma mensagem especial caso o valor seja acima de R$500,00. Nessa situação, ele ainda vai ganhar 10% de desconto. Exemplo:
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex13](lists/II/ex13.html)_**: ...
+- **_[Ex13](lists/II/ex13.html)_**: Programa que irá ler um número inteiro qualquer e se ele for positivo o programa deverá calcular o seu INVERSO, caso contrário, ele calculará seu OPOSTO. Exemplo:
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex14](lists/II/ex14.html)_**: ...
+- **_[Ex14](lists/II/ex14.html)_**: Programa que leia 2 números e mostra qual é o maior e o menor. Exemplo:
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex15](lists/II/ex15.html)_**: ...
+- **_[Ex15](lists/II/ex15.html)_**: Programa que leia a velocidade de um carro e verifica se ele ultrapassou de 80 km/h. Caso a velocidade esteja acima ele será multado. A multa vai custar R$ 7,00 por cada km acima do limite. Exemplo:
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex16](lists/II/ex16.html)_**: ...
+- **_[Ex16](lists/II/ex16.html)_**: Programa que leia um número inteiro e mostra na tela se ele é PAR ou ÍMPAR. Exemplo:
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex17](lists/II/ex17.html)_**: ...
+- **_[Ex17](lists/II/ex17.html)_**: Alistamento
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex18](lists/II/ex18.html)_**: ...
+- **_[Ex18](lists/II/ex18.html)_**: Ano Bissexto
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex19](lists/II/ex19.html)_**: ...
+- **_[Ex19](lists/II/ex19.html)_**: Aumento de Salário
 
 ```
     Entrada:
     Saída:
 ```
 
-- **_[Ex20](lists/II/ex20.html)_**: ...
+- **_[Ex20](lists/II/ex20.html)_**: Forma Triângulo
 
 ```
     Entrada:

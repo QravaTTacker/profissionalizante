@@ -10,19 +10,19 @@
 <body>
     <script>
         /**********************************************************************************
-        |  
-        | 5. Programa que mostra no documento HTML a divisão real, divisão inteira e o 
+        | 
+        | 5. Programa que mostra, no documento HTML, a divisão real, divisão inteira e o 
         |    módulo entre dois valores. Use a função parseInt() para alcançar o resultado 
         |    da divisão inteira.
-        |
+        | 
         **********************************************************************************/
 
         const valor1 = parseFloat(prompt("Informe um valor qualquer:"))
         const valor2 = parseFloat(prompt("Informe outro valor qualquer:"))
 
-        const div_real = valor1 / valor2
+        const div_real    = valor1 / valor2
         const div_inteira = parseInt(valor1 / valor2)
-        const div_resto = valor1 % valor2
+        const div_resto   = valor1 % valor2
 
         document.write(`Divisão Real: ${div_real}       <br/>`)
         document.write(`Divisão Inteira: ${div_inteira} <br/>`)

@@ -162,7 +162,7 @@ form {
   font-size: 1.2rem;
   border-radius: 0.5em;
   padding: 2em;
-  gap: 0.5em;
+  gap: 1em;
   width: 50ch;
   max-width: 100%;
 
@@ -183,7 +183,7 @@ input {
     outline: 0.1em solid var(--tertiary);
   }
 
-  &:focus:invalid {
+  &:focus:invalid:not(:placeholder-shown) {
     outline: 0.1em solid var(--error);
   }
 
@@ -237,7 +237,7 @@ button {
   }
 
   &:active {
-    background-color: #f0a1;
+    background-color: #f0a3;
     outline: 0.1em solid var(--primary);
     transition: 0.1s;
   }

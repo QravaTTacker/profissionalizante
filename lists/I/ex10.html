@@ -10,17 +10,17 @@
 <body>
     <script>
         /**********************************************************************************
-        |  
-        | 10. Crie um algoritmo que mostra a quantidade de horas, minutos e segundos a 
-        |     partir de um tempo total em segundos. Use os conceitos de divisão inteira e 
-        |     módulo da divisão (resto) para identificar tempo de cada unidade.
-        |
+        | 
+        | 10. Programa que mostra a quantidade de horas, minutos e segundos a partir de um 
+        |     tempo total em segundos. Use os conceitos de divisão inteira e módulo da 
+        |     divisão (resto) para identificar o tempo de cada unidade.
+        | 
         **********************************************************************************/
 
         const segundos_totais = Number(prompt("Informe o total de segundos:"))
 
-        const horas = parseInt(segundos_totais / 3600)
-        const minuto = parseInt(segundos_totais % 3600 / 60)
+        const horas    = parseInt(segundos_totais / 3600)
+        const minuto   = parseInt(segundos_totais % 3600 / 60)
         const segundos = segundos_totais % 3600 % 60
 
         document.write(`${horas} hora(s), ${minuto} minuto(s) e ${segundos} segundo(s)`)
